@@ -1,0 +1,404 @@
+
+@font-face {
+    font-family: 'DroidKufi-Regular';
+    src: url("../fonts/DroidKufi-Regular.ttf");
+  }
+  
+@font-face {
+    font-family: 'DroidKufi-Bold';
+    src: url("../fonts/DroidKufi-Bold.ttf");
+  }
+body{
+    direction: rtl;
+    text-align: right;
+    font-family: 'DroidKufi-Regular';
+}
+
+.herosec{
+    background-image: url("../img/herobg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height: auto;
+
+    color:white;
+    padding-bottom:320px;
+
+}
+img{
+    width:100%;
+}
+.logo{
+    width:20%;
+}
+.navbar{
+    width:100%;
+  font-size:16px;
+}
+.navbar-nav{
+margin-right:255px;
+}
+.bg-dark{
+    background-color:transparent !important;
+}
+
+.nav-item{
+    color:white !important;
+    margin-left:30px !important;
+    border-bottom:1px solid transparent;
+}
+.nav-item:hover{
+    color:#6f89c2 !important;
+border-bottom: 1px solid #6f89c2; 
+}
+.Title{
+    margin-top:370px;
+    margin-bottom: 50px;
+    text-align: right;
+}
+.herosecTitle{
+    font-family: 'DroidKufi-Bold';
+    font-size:55px;
+
+}
+
+.Title span{
+    color:#f0f1f2;
+    font-size: 18px;
+    font-weight: 300;
+}
+.getStarted{
+    background-color: #8097cb;
+    border:0;
+    padding:17px 50px;
+    border-radius: 0;
+ float: right;
+}
+/*****************************************************/
+.section{
+padding:150px 0;
+}
+.aboutus{
+    width:100%;
+    height:auto;
+    color:black;
+
+}
+.Aboutitle{
+    text-align: center;
+    margin-bottom:60px;
+}
+.aboutus.section{
+    padding-bottom: 0;
+}
+.secTitle {
+font-size:42px;
+text-align: center;
+font-family: 'DroidKufi-Bold';
+}
+.ourServicestitle {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.Aboutitle span,.ourServicestitle span{
+    margin-top:30px;
+    font-size:16px;
+    color:#727272;
+    text-align: center !important;
+}
+.aboutdesc{
+    margin-top:50px;
+    margin-right:10px;
+    text-align: right;
+}
+.aboutdesc i{
+color:#8097c8;
+font-size:40px;
+}
+.aboutdesc p{
+    font-size:20px;
+    color:#a3a3a3;
+    margin-bottom:60px;
+    line-height: 1.5;
+}
+.moreDesc{
+    display:none;
+}
+.moreAbout{
+    background-color: black;
+    border:0;
+    padding:16px 35px;
+    border-radius: 0;
+    color:white !important;
+    font-size: 16px !important;
+}
+.aboutus .container,.OurCliens .container{
+    padding-bottom:150px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.serviceCont{
+    padding:0 50px;
+}
+.servicBox{
+    width:100%;
+    min-height: 250px;
+    height: auto;
+    border:1px solid #e8e8e8;
+    padding:10px 10px;
+    margin-top:20px;
+  
+}
+.servicsimg {
+    width:82px;
+    height: 82px;
+    border-radius: 50%;
+    background-color: #8ca1d0;
+    text-align: center;
+    margin:0 auto ;
+}
+.servicsimg i{
+font-size:30px;
+color:white;
+line-height: 82px;
+}
+.serviceDesc{
+    margin-top:30px;
+    height: 110px;
+}
+.hiddenul{
+    display: none;
+}
+.OurCliens{
+ 
+    background-color: white;
+    width:100%;
+    height: auto;
+}
+.clientDesc{
+    display: block;
+ 
+    margin: 0 auto;
+    margin-top:80px;
+    text-align: center;
+}
+.Clientitem{
+    width:100%;
+}
+
+.clientImg{
+margin:0 auto;
+    width:180px;
+    height: 150px;
+}
+.owl-carousel .owl-nav .owl-next span, .owl-carousel .owl-nav .owl-prev span{
+    font-size:50px;
+    position: absolute;
+    top:50%;
+}
+.owl-carousel .owl-nav .owl-next span{
+    left:0;
+}
+.owl-carousel .owl-nav .owl-prev span{
+right:0;
+}
+.counterSection,.WorkTogother{
+    background-color:#222222;
+    width:100%;
+    height: auto;
+    padding:120px 0;
+}
+.counter{
+    border-left:1px solid #595959;
+}
+.counter.satesfClient{
+    border-left:0;
+}
+.counter h2,.counter span{
+    font-size: 45px;
+    font-family: 'DroidKufi-Bold';
+    color:#8097cb;
+    display: inline-block;
+}
+.counter p{
+    color:white;
+    font-size:25px;
+}
+.contactUs{
+    color:white !important;
+    background-color: #8097cb;
+    border:0;
+    display: inline-block;
+    border-radius: 0;
+    padding:10px 40px;
+}
+.contactsec.section{
+    padding-bottom: 200px;
+}
+.contactsec{
+    background-color: white;
+    width:100%;
+}
+.contactBox{
+width:100%;
+height: auto;
+border:1px solid #e8e8e8;
+padding:50px 70px;
+color:black;
+}
+.contactBox span{
+    font-size:16px;
+}
+.contactBox h5{
+    font-size: 40px;
+    margin-top:20px;
+}
+.contactBox .messagedetails{
+    width:100%;
+}
+form{
+    width:50%;
+    float:right;
+}
+.formControl{ 
+    width:100%;
+    border:0;
+    border-bottom:1px solid #e8e8e8;
+    display: block;
+    padding-bottom:15px;
+    margin-top:30px;
+}
+.formControl::placeholder,textarea::placeholder{
+font-size: 14px;
+color:#c4c4c4;
+}
+textarea{
+    border:0;
+    border-bottom:1px solid #e8e8e8;
+    resize: none;
+    height: 170px;
+    width:100%;
+    padding-top:50px;
+}
+
+.sendMessage{
+    background-color: #222222;
+    border:0;
+    color:white !important;
+    margin-top:30px;
+    float:left;
+}
+.contactTitle{
+    width:48%;
+    float:left;
+    margin:0 auto;
+    margin-top:190px;
+    text-align: center;
+   
+}
+.contactTitle span{
+    display: block;
+}
+.contactTitle span i{
+font-size:20px;
+color:#e94b36;
+margin-bottom: 20px;
+}
+.WorkTogother h3{
+    font-size: 35px;
+    color:white;
+    display: inline-block;
+    margin-left:250px;
+}
+.Expert.section{
+    padding-top:0;
+}
+.expertOwl{
+    widows: 100%;
+    height: auto;
+}
+.expertBox{
+    width:360px;
+    height:420px;
+    box-shadow: 0 0 2px 2px rgba(0,0,0,.2);
+}
+.ExpertImg{
+    width:100%;
+    height:250px;
+}
+.expertDesc{
+    margin-top:10px;
+    padding:10px;
+}
+.date{
+    font-size:12px;
+    color:#c4c4c4;
+    margin-top:30px;
+}
+.Footer{
+    background-color: #222222;
+    width:100%;
+}
+.Footer .navbar-nav{
+    margin-right:150px;
+}
+.Footer.section{
+    padding-top:50px;
+}
+.Footer .navbar-collapse{
+    margin-top:50px;
+}
+.social{
+    margin-top:50px;
+}
+.social i{
+    color :white;
+    font-size:20px;
+    padding-right:25px;
+}
+.fa-google-plus-g:hover{color:#dd4b39}
+.fa-facebook-f:hover{color:#3b5998}
+.fa-twitter:hover{color:#1da1f2}
+.borderNav{
+    padding-bottom:40px;
+    border-bottom:1px solid #595959;
+}
+.privecyandterms{
+    padding-top:65px;
+    text-align: center
+}
+.privecyandterms a,.privecyandterms span{
+color:#a1a1a1;
+text-decoration: none;
+display:inline-block;
+padding-left:50px;
+}
+.privecyandterms span{
+    margin-top:20px;
+    display: block;
+}
+
+
+/********************mobile *********************************/
+@media (min-width: 351px) and (max-width: 767px){
+    .Title{
+        margin-top:50px;
+    }
+    .Title span{
+        font-size:14px;
+    }
+    .herosecTitle{
+        font-size:30px;
+    }
+    .navbar-nav{
+        margin-right:0;
+        text-align: center;
+        margin-top:30px;
+    }
+    .navbar-nav:hover{
+        background-color: rgba(255,255,255,.6);
+    }
+}
+
+
+/****************** mini moobile**********************/
+@media(max-width:350px){}
