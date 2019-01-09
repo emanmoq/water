@@ -218,7 +218,7 @@ right:0;
     background-color:#222222;
     width:100%;
     height: auto;
-    padding:120px 0;
+    padding:75px 0;
 }
 .counter{
     border-left:1px solid #595959;
@@ -328,6 +328,10 @@ margin-bottom: 20px;
 .expertOwl{
     widows: 100%;
     height: auto;
+}
+.expertOwl .owl-dots{
+    text-align: center;
+    margin: 50px;
 }
 .expertBox{
     width:360px;

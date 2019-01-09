@@ -14,6 +14,7 @@ $(document).ready(function () {
         autoplay: true,
         rtl:true,
         loop: true,
+        dots:true,
         responsiveClass: true,
         responsive: {
             0: {
