@@ -201,6 +201,19 @@ margin:0 auto;
 .owl-carousel .owl-nav .owl-prev span{
 right:0;
 }
+.owl-dots .owl-dot span{
+    width: 7px;
+    height: 7px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+    display: block;
+    border-radius: 30px;
+}
+.owl-dot.active span{
+    background-color:#222222;
+    width:10px;
+    height: 10px;
+}
 .counterSection,.WorkTogother{
     background-color:#222222;
     width:100%;
