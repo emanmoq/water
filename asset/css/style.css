@@ -337,6 +337,10 @@ margin-bottom: 20px;
     width:360px;
     height:420px;
     box-shadow: 0 0 2px 2px rgba(0,0,0,.2);
+    margin:5px;
+}
+.expertBox:hover{
+    box-shadow: 0 0 5px 5px rgba(128, 151, 203, .6);
 }
 .ExpertImg{
     width:100%;
@@ -414,8 +418,49 @@ padding-left:50px;
     .navbar-nav:hover{
         background-color: rgba(255,255,255,.6);
     }
+    .clientImg {
+        width:150px;
+    }
+    .owl-carousel .owl-nav .owl-next span, .owl-carousel .owl-nav .owl-prev span{
+        top:35%;
+    }
+    .expertBox{
+        width:310px;
+        height: 454px;
+    }
+    .counter {
+        margin-bottom:50px;
+    }
+    .serviceCont {
+        padding:0;
+    }
+    .WorkTogother h3{
+        margin: 0;
+      margin-bottom: 40px;
+    }
+    .messagedetails  form{
+        width:100%;
+        text-align: center;
+    }
+    .contactTitle {
+        width: 100%;
+        margin-top: 100px;}
+        .sendMessage{
+            float:none;
+            margin-top:50px;
+        }
+        .contactBox h5{
+            font-size:25px;
+        }
+        .WorkTogother {
+            padding:50px 0;
+        }
 }
 
 
 /****************** mini moobile**********************/
-@media(max-width:350px){}
+@media(max-width:350px){
+    .clientImg {
+        width:120px;
+    }
+}
