@@ -28,6 +28,9 @@ body{
 img{
     width:100%;
 }
+video{
+    width:100%;
+}
 .logo{
     width:20%;
 }
@@ -143,6 +146,7 @@ font-size:40px;
     padding-bottom:150px;
     border-bottom: 1px solid #e8e8e8;
 }
+
 .serviceCont{
     padding:0 50px;
 }
@@ -410,6 +414,16 @@ padding-left:50px;
 
 
 /********************mobile *********************************/
+@media (min-width: 768px) and (max-width: 1025px){
+    .serviceCont{
+        padding:0;
+    }
+    .servicBox {
+        min-height: 391px;}
+        .expertBox {
+            width: 323px;}
+            
+}
 @media (min-width: 351px) and (max-width: 767px){
     .Title{
         margin-top:50px;
@@ -420,6 +434,7 @@ padding-left:50px;
     .herosecTitle{
         font-size:30px;
     }
+
     .navbar-nav{
         margin-right:0;
         text-align: center;
@@ -465,8 +480,10 @@ padding-left:50px;
         .WorkTogother {
             padding:50px 0;
         }
+        .privecyandterms a,.privecyandterms span{
+            padding-left:0;
+        }
 }
-
 
 /****************** mini moobile**********************/
 @media(max-width:350px){

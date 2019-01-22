@@ -19,7 +19,10 @@ $(document).ready(function () {
             0: {
                 items:1,
             },
-            1000:{
+            500:{
+                items:2,
+            },
+            1190:{
                 items:3,
                 margin:30,
             }

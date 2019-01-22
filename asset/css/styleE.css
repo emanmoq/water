@@ -11,12 +11,13 @@ body{
     background-repeat: no-repeat;
     width:100%;
     height: auto;
-
     color:white;
     padding-bottom:320px;
-
 }
 img{
+    width:100%;
+}
+video{
     width:100%;
 }
 .logo{
@@ -403,6 +404,16 @@ padding-right:50px;
 
 
 /********************mobile *********************************/
+@media (min-width: 768px) and (max-width: 1025px){
+    .serviceCont{
+        padding:0;
+    }
+    .servicBox {
+        min-height: 391px;}
+        .expertBox {
+            width: 323px;}
+            
+}
 @media (min-width: 351px) and (max-width: 767px){
     .Title{
         margin-top:50px;
@@ -458,6 +469,15 @@ padding-right:50px;
         .WorkTogother {
             padding:50px 0;
         }
+        .privecyandterms a,.privecyandterms span{
+            padding-left:0;
+        }
+}
+
+@media (max-width: 992px){
+    .navbar-nav {
+        margin-right: 66px;
+    }
 }
 
 
